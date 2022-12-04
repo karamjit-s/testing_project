@@ -374,8 +374,9 @@ if (!empty($_POST["signup-btn"])) {
 
         }
     </script>
-
-    <script>
+    
+    
+<script>
         function formatPhoneNumber(value) {
             if (!value) return value;
 
@@ -395,6 +396,7 @@ if (!empty($_POST["signup-btn"])) {
         }
     </script>
 
+    
 
 
 
