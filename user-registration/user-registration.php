@@ -304,7 +304,7 @@ if (!empty($_POST["signup-btn"])) {
             }
 
             if (Password.trim() == "") {
-                $("#signup-password-info").html("required.").css("color", "#ee0000").show();
+                $("#signup-password-info").html("required.").css("color", "#ff0000").show();
                 $("#signup-password").addClass("error-field");
                 valid = false;
             }
@@ -374,8 +374,9 @@ if (!empty($_POST["signup-btn"])) {
 
         }
     </script>
-
-    <script>
+    
+    
+<script>
         function formatPhoneNumber(value) {
             if (!value) return value;
 
@@ -395,6 +396,7 @@ if (!empty($_POST["signup-btn"])) {
         }
     </script>
 
+    
 
 
 
