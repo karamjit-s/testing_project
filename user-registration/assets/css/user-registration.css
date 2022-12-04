@@ -7,14 +7,14 @@
   }
   
   .sign-up-container {
-      border-color: #be4141;
-      color: #d9c7fa;
+      border-color: #c04141;
+      color: #d4c3f7;
       width: 100%;
       font-weight: 600;
   }
   
   #contact {
-      color: black;
+      color: rgb(0, 0, 0);
   }
   
   .page-header {
@@ -29,7 +29,7 @@
   
   .login-signup a {
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 705;
       margin-left: 50px;
   }
   
@@ -38,7 +38,7 @@
       font-weight: bold;
       padding-top: 10px;
       text-align: center;
-      color: rgb(236, 192, 46);
+      color: rgb(250, 201, 39);
       font-weight: bolder;
   }
   
