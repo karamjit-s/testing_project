@@ -60,6 +60,12 @@ if (!empty($_POST["signup-btn"])) {
                         </div>
                         <div class="inline-block">
                             <div class="form-label">
+                                Middle Name<span class="required error" id="middlename-info"></span>
+                            </div>
+                            <input class="input-box-330" type="text" name="middlename" id="middlename" pattern="[a-zA-Z].*[a-zA-Z]" title="Type at least 2 or more characters and name should be start with alphabets like a-A." required>
+                        </div>
+                        <div class="inline-block">
+                            <div class="form-label">
                                 First Name<span class="required error" id="firstname-info"></span>
                             </div>
                             <input class="input-box-330" type="text" name="firstname" id="firstname" pattern="[a-zA-Z].*[a-zA-Z]" title="Type at least 2 or more characters and name should be start with alphabets like a-A." required>
