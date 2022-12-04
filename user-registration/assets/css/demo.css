@@ -72,6 +72,13 @@ select {
 }
 
 button {
+  color: #FFF;
+  background-color: #428BCA;
+  border: 1px solid #357EBD; }
+  button:hover {
+    background-color: #3276B1;
+    border-color: #FF0000;
+    cursor: pointer; }
     color: #FFF;
     background-color: #4694d8;
     border: 1px solid #3274ad;
