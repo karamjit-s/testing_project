@@ -55,7 +55,7 @@ button {
   border: 1px solid #357EBD; }
   button:hover {
     background-color: #3276B1;
-    border-color: #FF00FF;
+    border-color: #FF0000;
     cursor: pointer; }
 
 #result {
