@@ -91,13 +91,14 @@ class Member
                 // do not attempt to do your own encryption, it is not safe
                 $hashedPassword = password_hash($_POST["signup-password"], PASSWORD_DEFAULT);
             }
-            $query = 'INSERT INTO tbl_member (firstname, lastname, dob,gender, contact, email, address, password, newsletter, question)
-												VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
+            $query = 'INSERT INTO tbl_member (firstname, middlename, lastname, dob,gender, contact, email, address, password, newsletter, question)
+												VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)';
 
-			$paramType = 'ssssssssss';
+			$paramType = 'sssssssssss';
 
             $paramValue = array(
 			$_POST["firstname"],
+		        $_POST["middlename"],
 			$_POST["lastname"],
 			$_POST["dob"],
 			$_POST["gender"],
