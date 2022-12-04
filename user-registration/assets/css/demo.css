@@ -4,11 +4,18 @@
 }
 
 body {
+
     margin: 20px;
     font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #555;
 }
+
+  margin: 30px;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #555; }
+
 
 .iti__hide {
     display: none;
