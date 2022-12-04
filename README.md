@@ -11,3 +11,4 @@ Just fill the fields according to its validations requirments then click on subm
 
 Then it will show the green colored message that "You have regitered successfully". It means user has successfully saved his information into database.
 ![Screenshot (233)](https://user-images.githubusercontent.com/69523356/205421989-ddbcf807-e9dc-4b02-90d8-5d9eab193408.png)
+
